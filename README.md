@@ -34,9 +34,9 @@ yarn run build
 slidev build --base /slidev/
 ```
 
-The generated application will be available under `dist/`.
+The generated application will be available under `dist/`, rename it to `docs/`
 
-You need to push `dist/` folder to GitHub repo for GitHub Pages hosting.
+You need to push `docs/` folder to GitHub repo for GitHub Pages hosting.
 
 ## Further reading
 
