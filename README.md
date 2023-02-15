@@ -29,18 +29,16 @@ For multiple slide entries, you can [check here](./pages/multiple-entries.md).
 ### Build the slides into a self-hostable SPA
 
 ```bash
-# Checkout to the `source` branch
-git checkout source
-
 # Build the slides into static files
 # Or use slidev directly if it's globally installed
 # slidev build --base /slidev/
 yarn run build
+# The generated application will be available under `dist/`.
+# Copy everything under `dist/` to `docs/` to make Github Pages work
+# Make sure .nojekyll file should always exist under `docs/`
+# https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
+cp -r dist/* docs/
 ```
-
-The generated application will be available under `dist/`.
-
-You need to push everything under `dist/` folder to the `master` branch.
 
 ## Further reading
 
