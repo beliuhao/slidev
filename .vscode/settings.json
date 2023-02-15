@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["hostable", "seriph", "shiki", "Slidev", "subpage", "unocss", "windi"]
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": ["Slidev"]
 }
