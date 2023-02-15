@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "build": "slidev build --base /slidev/",
+    "dev": "nodemon -w '../../packages/slidev/dist/*.js' --exec \"slidev ./slides.md --open=false --log=info\"",
+    "export": "slidev export",
+    "export-notes": "slidev export-notes"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.40.3",
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/theme-seriph": "^0.21.3",
+    "@slidev/types": "workspace:*",
+    "nodemon": "^2.0.20"
+  },
+  "name": "slidev",
+  "description": "Play with `Slidev`",
+  "version": "1.0.0",
+  "main": "slides.md",
+  "author": "Herman",
+  "license": "MIT"
+}
